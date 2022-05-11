@@ -29,10 +29,10 @@ function App() {
             <Route path="/login" element={<LoginPage />} />
             <Route path="/register" element={<RegisterPage />} />
             <Route path="/faq" element={<Faq />} />
-            <Route path="/locations" element={<RequireAuth><Locations /></RequireAuth>} />
+            <Route path="/locations" element={<Locations />} />
             <Route path="/locations/:id" element={<RequireAuth><LocationsDetails /></RequireAuth>} />
-            <Route path="/fares" element={<RequireAuth><Fares /></RequireAuth>} />
-            <Route path="/fares/:id" element={<RequireAuth><FaresDetails/></RequireAuth>} />
+            <Route path="/fares" element={<Fares />} />
+            <Route path="/fares/:id" element={<FaresDetails/>} />
             <Route path="/about" element={<About />} />
           </Routes>
           {jwt && <SupportChat />}

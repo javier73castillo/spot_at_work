@@ -36,17 +36,15 @@ function Navbar() {
               <NavLink to="/faq">
                 <li>FAQ</li>
               </NavLink>
-              {jwt && (
+              
                 <NavLink to="/fares">
                   <li>Tarifas</li>
                 </NavLink>
-              )}
-              {jwt && (
+              
                 <NavLink to="/locations">
                   <li>Coworkings</li>
                 </NavLink>
-              )}
-              {!jwt && (
+             
                 <>
                   <NavLink to="/login">
                     <li>Iniciar Sesión</li>
@@ -56,7 +54,7 @@ function Navbar() {
                     <button className="button-19">Registrarse</button>
                   </NavLink>
                 </>
-              )}
+              
               {jwt && <ButtonLogout />}
             </ul>
           </div>
