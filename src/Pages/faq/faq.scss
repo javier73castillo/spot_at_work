@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+//para los parrafos  font-family: 'Poppins', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+// para las preguntas font-family: 'Merriweather', serif;
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+.container{
+    display: flex;
+    width: 100%;
+    justify-content:center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    
+    
+}
+.container-faq{
+    display: flex;
+    width: 100%;
+    justify-content:center;
+    align-content: center;
+}
+.container-main{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    width: 100%;
+    margin: 10px 60px;
+    
+
+    h1{
+        color: rgb(0, 0, 0);
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 50px;
+        padding: 0px;
+        margin: 0px;
+        text-align: none;
+        font-style: none;
+        text-shadow: none;
+    }
+    h2{
+        padding: 0px;
+        color: rgb(217, 126, 7);
+        margin: 10px 0px;
+        text-align: left;
+        font-size: 16px;
+        
+    }
+    p{
+        margin: 10px auto;
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+        text-align: justify;
+    }
+}
+.container-main-query{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-items: center;
+    width: 100%;
+    margin: 10px;
+}
+
+.faq {
+    background-image: url('https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=847&q=80');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    
+}
+
+
+.h1Class {
+    color: rgb(255, 164, 53);
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 65px;
+    padding: 0 2rem;
+    text-align: left;
+    margin:  0 3rem;
+    text-shadow: -4px 3px #000000;
+    
+}
+.title2{
+    color: rgb(255, 209, 134);
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 65px;
+    padding: 0 2rem;
+    text-align: justify;
+    margin:  0 3rem;
+    text-shadow: -4px 3px #000000;
+}
+.bn54 {
+    margin-top:20px;
+    position: relative;
+    outline: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 30px;
+    width: 120px;
+    opacity: 1;
+    color: white;
+    font-size: 16px;
+    background: none;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    margin: 0 auto;
+}
+
+.form-faq {
+    background-color: rgb(246,180,1);
+    width: 70%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    .title-form {
+        font-size: 28px;
+        padding: 10px;
+    }
+    
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 10px;
+    align-items: center;
+} 
+.inputClass{
+    width: 310px;
+    height: 30px;
+    margin: 10px 0;
+}
+.pClass{
+    
+    margin: 10px auto;
+    text-align: justify;
+    width: 90%;
+}
+h4{
+    margin: 0 auto;
+}
+
+.box-servicios{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    border-bottom: 1px solid black;
+
+    .h1Class{
+        color: rgb(0, 0, 0);
+        margin: 0 20px;
+        font-size: 40px;
+        text-shadow: none;
+        padding: 0px;
+    }
+    h3{
+        margin: 0 0 10px 0;
+    }
+}
+.box-servicios-img{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.box{
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+    
+    img{width: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+    }
+    
+     .p{
+        margin-top: -30px;
+        margin-right: -10px;
+        width: 310px;
+        height: 180px;
+        padding: 15px;
+        border-radius: 10px;
+        background-color:  rgb(242, 176, 22);
+    }
+    
+}
+.box-query{
+    display: flex;
+    width: 100%;
+    margin: 10px auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    p{
+        width: 70%;
+        font-size: 22px;
+        margin: 0 2rem;
+        font-family: 'Merriweather', serif;
+                
+    }
+    .request{
+        width: 65%;
+        font-size: 16px;
+        margin: 0 2rem;
+        line-height: 2;
+        font-family: 'Merriweather', serif;
+        color: #292929;
+    }
+    span{
+        margin-right: 30px;
+        display: flex;
+        align-items: center;
+    }
+    label{
+        display: flex;
+    }
+    
+}
+.query1{
+    text-align: justify;
+    margin: 1rem 2rem;
+    display: none;
+}
+@media screen and (min-width: 280px) and (max-width:1080px){
+    .container{
+        display: flex;
+        
+        .container-faq{
+            display:flex;
+            flex-direction: column;
+
+            .faq{
+                width: 100%;
+                height: 400px;
+                display: flex;
+                justify-content: space-evenly;
+
+                .h1Class{
+                    font-size: 35px;
+                }
+            }
+
+            .form-faq{
+                width: 100%;
+                h2{
+                    font-size: 25px;
+                }
+
+            }
+        }
+
+        .container-main{
+            width: 100%;
+            margin: 0px;
+            padding: 15px
+        }
+
+        .box-servicios-general{
+           width: 100%;
+
+           .box-servicios-img{
+               display: flex;
+               flex-direction: column;
+               align-items: center;
+           }
+        }
+    }
+
+
+}

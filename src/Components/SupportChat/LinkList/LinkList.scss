@@ -1,0 +1,29 @@
+.link-list {
+    padding: 0;
+  }
+  
+  .link-list-item {
+    text-align: left;
+    font-size: 0.9rem;
+    cursor: pointer;
+    list-style: none;
+  }
+  
+  .link-list-item-url {
+    text-decoration: none;
+    text-align: center;
+    margin: 6px;
+    display: block;
+    color: #1d1d1d;
+    background-color: #f1f1f1;
+    padding: 8px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 4px rgba(150, 149, 149, 0.4);
+    transition: all 0.1s ease-in;
+
+  }
+
+  .link-list-item-url:hover{
+    background-color:#25D366;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  }

@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:ital@1&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    
+}
+body{
+  margin: 0;
+}
+
+/* .App {
+  text-align: center;
+} */

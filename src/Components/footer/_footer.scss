@@ -1,0 +1,156 @@
+.map-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 0 4rem 0;
+
+    iframe{
+        width: 80%;
+        height: 600px;
+    }
+}
+
+.footer-container{
+    display: flex;
+    background-color: #404040;
+    width: 100%;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    
+    .logo-politicas{
+        width: 15%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        *{
+            color: white
+        }
+        .footer-logo{
+            width: 100px;
+        }
+        .p-footer{
+            
+        }
+    }
+    .classCheckBox{
+        display:flex;
+    }
+
+
+    .form-container{
+        display: flex;
+        flex-direction: column;
+        width: 36%;
+        color: white;
+
+        .form-container2{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .input-footer{
+            width: 80%;
+        }
+
+        .classCheckBox{
+            width:  430px;
+            align-items: center;
+            margin-top: 10px;
+        }
+        .text-footer{
+            margin-left: 10px;
+        }
+
+        
+    }
+
+
+    .icon-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        .icon-footer{
+            max-width: 20%;
+
+        }
+    }
+
+}
+
+
+@media screen and (min-width: 280px) and (max-width:1080px){
+    .footer-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .logo-politicas{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+
+        .form-container{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            
+               
+               
+            
+
+            .form-container2{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                input{
+                    border: 2px solid;
+                    border-color: white;
+                    background-color: transparent;
+                    ::placeholder { color: white; }
+                }
+            }
+        
+            .input-footer{
+                padding: 5px;
+                width: 80%;
+                border: none;
+                border-bottom: 2px solid;
+
+                
+            }
+            
+            .classCheckBox{
+                width: 320px;
+                font-size: 10px;
+            }
+
+        }
+
+        .icon-container{
+            display: flex;
+            width: 100%;
+            flex-direction: row;
+            h2{
+                color: white;
+                font-size: 30px;
+            }
+        }
+
+    }
+
+}
+
+#btn-footer-enviar{
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100px;
+}

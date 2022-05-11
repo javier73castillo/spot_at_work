@@ -1,0 +1,52 @@
+.formContainer{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('https://impacthubalameda.spaces.nexudus.com/es/business/GetBannerFor?id=15671660&w=1920&h=1080&mode=max');
+    
+}
+
+
+
+.formInfo{
+    background-color: rgb(255,254,254);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 360px;
+    height: 360px;
+    border-radius: 10px;
+    box-shadow: #f4a973 0px 0px 0px 5px;
+}
+.inputEmail{
+    border: none;
+    border-bottom: 2px solid #f4a973;
+    outline: none;
+    width: 200px;
+}
+.inputPassword{
+    border: none;
+    border-bottom: 2px solid #f4a973;
+    outline: none;
+    width: 200px
+}
+
+.errorFrase{
+    padding: 10px;
+    font-size: 11px;
+    text-align: center;
+    color: red;
+}
+.passFrase{
+    font-size: 11px;
+    text-align: left;
+    color: #1CB0F6;
+    width: 300px;
+    text-align: center;
+}
